@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kobyshemesh_pythonwebapp_1706383051443-push-trigger-input-set
+  identifier: Build_kobyshemesh_pythonwebapp_1706383051443pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kobyshemesh_pythonwebapp_1706383051443
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
